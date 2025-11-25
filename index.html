@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Camilla Cruz — Nutricionista</title>
+  <meta name="description" content="Camilla Cruz, nutricionista clínica. Ajudo pacientes a alcançarem bem-estar e saúde através de planos alimentares personalizados." />
+  <meta property="og:title" content="Camilla Cruz — Nutricionista Clínica" />
+  <meta property="og:description" content="Nutricionista clínica especializada em bem-estar, planos personalizados e reeducação alimentar." />
+  <meta property="og:image" content="URL-da-imagem.webp" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#c79a2f" />
+  <link rel="stylesheet" href="styles/main.css" />
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="wrap">
+    <!-- HEADER -->
+    <header class="top" role="banner" aria-label="Cabeçalho">
+      <div class="brand">
+        <div class="initials" aria-hidden="true">CC</div>
+        <div>
+          <div class="site-name">Camilla Cruz</div>
+          <div class="tiny">Nutricionista</div>
+        </div>
+      </div>
+
+      <!-- Botão Menu Mobile (Só aparece no celular) -->
+      <button id="btn-mobile" aria-label="Abrir menu de navegação">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+      <nav class="main" role="navigation" aria-label="Menu principal">
+        <ul>
+          <li><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li><a href="#projetos" class="nav-link">Projetos</a></li>
+          <li><a href="#consultorio" class="nav-link">Local de atendimento</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+          <li><a href="#agendesuaconsulta" class="nav-link">Agende sua consulta</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HERO + PRIMEIRO CONTEÚDO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="intro">
+        <h2 id="hero-title">Camilla Cruz — Nutricionista Clínica</h2>
+        <p>Ajudo pacientes a alcançarem bem-estar e saúde através de planos alimentares personalizados, reeducação alimentar e acompanhamento humanizado.</p>
+        <p class="tiny">Atendimento presencial e online. Planos para adultos, gestantes e atletas.</p>
+      </div>
+
+      <div class="photo" aria-hidden="true" style="display: flex; flex-direction: column; align-items: center;">
+        <img src="assets/profile-camilla.webp" alt="Foto da nutricionista Camilla Cruz" style="width: 100%; max-width: 400px; height: auto;" />
+        <p class="photo-caption" style="margin-top:8px;font-size:0.95rem;color:#555;text-align:center;">
+          Ambiente discreto e acolhedor para atendimento individualizado.
+        </p>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="content-section" aria-labelledby="sobre-title">
+      <h3 id="sobre-title">Sobre</h3>
+
+      <div class="about-grid" style="display:flex;flex-wrap:wrap;gap:20px;align-items:stretch;">
+        <div class="about-card" style="flex:0 0 320px;max-width:320px;background:#fff;padding:0;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,0.06);display:flex;overflow:hidden;">
+          <img src="assets/camilla-consultando.webp" alt="Camilla conversando com paciente no consultório" style="width:100%;height:100%;object-fit:cover;display:block;" />
+        </div>
+
+        <div class="about-text" style="flex:1;min-width:200px;">
+          <div class="card" style="padding:0; box-shadow:none; border:none;">
+            <h4>Camilla Cruz</h4>
+            <p>Sou nutricionista clínica com formação em Nutrição, especialização em Nutrição Clínica Funcional e experiência em terapia nutricional personalizada. Trabalho com acompanhamento humanizado, elaboração de planos práticos e metas realistas para cada paciente. Atendo presencialmente e online, focando em emagrecimento saudável, ganho de massa magra e manejo de condições crônicas.</p>
+            <p class="tiny">Atendimento empático e individualizado — escuta ativa e suporte para mudanças sustentáveis.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="content-section" aria-labelledby="projetos-title">
+      <h3 id="projetos-title">Projetos</h3>
+      <div class="cards" style="display:flex;flex-wrap:wrap;gap:16px;">
+        <div class="card" style="flex:1 1 280px;" data-duration="12 meses de acompanhamento">
+          <h4>Programa Emagrecimento Consciente</h4>
+          <div class="before-after" style="display:flex;gap:8px;align-items:center;">
+            <img src="assets/cliente1-before.webp" alt="Antes - cliente 1" style="width:50%;height:auto;border-radius:6px;" />
+            <img src="assets/cliente1-after.webp" alt="Depois - cliente 1" style="width:50%;height:auto;border-radius:6px;" />
+          </div>
+          <p class="tiny" style="margin-top:8px;">Programa de 12 semanas com acompanhamento nutricional e estratégias comportamentais.</p>
+        </div>
+
+        <div class="card" style="flex:1 1 280px;" data-duration="6 meses de acompanhamento">
+          <h4>Plano Gestacional</h4>
+          <div class="before-after" style="display:flex;gap:8px;align-items:center;">
+            <img src="assets/cliente2-before.webp" alt="Antes - cliente 2" style="width:50%;height:auto;border-radius:6px;" />
+            <img src="assets/cliente2-after.webp" alt="Depois - cliente 2" style="width:50%;height:auto;border-radius:6px;" />
+          </div>
+          <p class="tiny" style="margin-top:8px;">Orientação nutricional segura e personalizada durante a gestação.</p>
+        </div>
+
+        <div class="card" style="flex:1 1 280px;" data-duration="4 meses de acompanhamento">
+          <h4>Atendimento Esportivo</h4>
+          <div class="before-after" style="display:flex;gap:8px;align-items:center;">
+            <img src="assets/cliente3-before.webp" alt="Antes - cliente 3" style="width:50%;height:auto;border-radius:6px;" />
+            <img src="assets/cliente3-after.webp" alt="Depois - cliente 3" style="width:50%;height:auto;border-radius:6px;" />
+          </div>
+          <p class="tiny" style="margin-top:8px;">Prescrição alimentar para otimizar performance e recuperação.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONSULTÓRIO / LOCAL -->
+    <section id="consultorio" class="content-section" aria-labelledby="consultorio-title">
+      <h3 id="consultorio-title">Local de atendimento</h3>
+
+      <div class="cards">
+        <div class="card" style="max-width:900px; margin: 0 auto;">
+          <h4>Consultório Central</h4>
+          <p>Rua Exemplo, 123 — Sala 5, Centro. Fácil acesso e estacionamento próximo.</p>
+          <p><strong>Horário:</strong> Seg–Sex 9:00–18:00</p>
+          <p><strong>Atendimento Online:</strong> Consultas por videoconferência para pacientes de outras cidades e estados.</p>
+
+          <div style="margin-top:12px;">
+            <img src="assets/local-consultorio.webp" alt="Foto do consultório" style="width:100%;height:auto;border-radius:8px;display:block;" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO (Novo Layout com Imagem) -->
+    <section id="contato" class="content-section" aria-labelledby="contato-title">
+      <h3 id="contato-title">Contato</h3>
+
+      <div class="contact-container">
+        
+        <!-- LADO ESQUERDO: A Imagem Visual -->
+        <div class="contact-visual">
+           <img src="assets/contato-visual.webp" alt="Nutrição e bem-estar" />
+        </div>
+
+        <!-- LADO DIREITO: Os Cards -->
+        <div class="contact-info-wrapper">
+            <div class="cards">
+              <div class="card">
+                <h4>Telefone</h4>
+                <p>+55 (85) 98852-8359</p>
+              </div>
+              <div class="card">
+                <h4>Email</h4>
+                <p>oms.otaviio@gmail.com</p>
+              </div>
+              <div class="card">
+                <h4>Redes</h4>
+                <p>Instagram: @camillacruznutri</p>
+              </div>
+            </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- AGENDAR CONSULTA -->
+    <section id="agendesuaconsulta" class="content-section" aria-labelledby="agendamento-title">
+      <h3 id="agendamento-title">Agende sua consulta</h3>
+
+      <p class="tiny">Preencha seus dados abaixo. Ao enviar, uma mensagem será aberta no WhatsApp da nutricionista e seu e-mail no cliente de email padrão.</p>
+
+      <div class="booking-grid" style="display:flex;flex-wrap:wrap;gap:20px;align-items:stretch;">
+        <form id="booking" aria-label="Formulário de agendamento" style="flex:1;min-width:280px;max-width:520px;">
+          <input type="text" id="nome" name="nome" placeholder="Nome completo" required />
+          <input type="tel" id="telefone" name="telefone" placeholder="Telefone (WhatsApp)" required />
+          <input type="email" id="email" name="email" placeholder="Email" required />
+          <input type="date" id="data" name="data" placeholder="Data desejada" />
+          <input type="time" id="hora" name="hora" placeholder="Hora desejada" />
+          <select id="tipo" name="tipo">
+            <option value="">Tipo de consulta</option>
+            <option>Primeira consulta</option>
+            <option>Retorno</option>
+            <option>Plano alimentar</option>
+          </select>
+
+          <textarea id="mensagem" name="mensagem" placeholder="Mensagem/observações"></textarea>
+
+          <div class="btn-row">
+            <button type="submit" class="btn-primary" title="Enviar mensagem para WhatsApp e email">
+          <svg width="20" height="20" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 3C9.372 3 4 8.372 4 15c0 2.64.86 5.086 2.32 7.08L4 29l7.19-2.28C12.226 27.566 13.98 28 16 28c6.628 0 12-5.372 12-12S22.628 3 16 3Z" fill="#25D366"/>
+            <path d="M22.338 19.655c-.348-.174-2.06-1.018-2.379-1.134-.319-.116-.552-.174-.785.174-.233.348-.902 1.134-1.107 1.367-.204.233-.407.262-.755.087-.348-.174-1.47-.54-2.801-1.72-1.035-.924-1.733-2.064-1.938-2.412-.204-.348-.022-.536.152-.71.156-.156.348-.407.522-.61.174-.204.233-.349.349-.581.116-.233.058-.436-.029-.61-.087-.174-.785-1.888-1.078-2.594-.284-.681-.577-.589-.785-.6l-.67-.011c-.233 0-.61.087-.929.436-.319.349-1.221 1.178-1.221 2.873 0 1.695 1.251 3.334 1.425 3.566.174.232 2.46 3.761 5.968 5.266 3.508 1.505 3.508 1.003 4.159.958.651-.044 2.06-1.006 2.355-1.978.295-.973.295-1.787.206-1.92-.087-.132-.319-.204-.667-.378Z" fill="white"/>
+          </svg>
+          Enviar mensagem
+        </button>
+
+            <button type="button" class="btn-secondary" onclick="print('print')">Salvar/Imprimir</button>
+          </div>
+        </form>
+
+        <div class="booking-photo" aria-hidden="true" style="flex:0 0 360px;max-width:360px;display:flex;">
+          <img src="assets/estabelecimento-consultorio.webp" alt="Local do consultório" style="width:100%;height:100%;object-fit:cover;border-radius:8px;display:block;" />
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <hr class="footer-sep" style="border:0;border-top:1px solid rgba(212,175,55,0.25);margin:28px 0;">
+    <footer role="contentinfo">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <div class="initials" aria-hidden="true">CC</div>
+          <div>
+            <div class="site-name">Camilla Cruz</div>
+            <div class="tiny">Nutricionista</div>
+          </div>
+        </div>
+
+        <div style="flex:1;"></div>
+
+        <div class="footer-nav tiny" aria-label="Navegação do rodapé" style="text-align: right;">
+          <!-- Links Principais (com animação) -->
+          <div class="main-links">
+            <a href="#sobre" class="nav-link">Sobre</a>
+            <a href="#projetos" class="nav-link">Projetos</a>
+            <a href="#consultorio" class="nav-link">Local de atendimento</a>
+            <a href="#contato" class="nav-link">Contato</a>
+            <a href="#agendesuaconsulta" class="nav-link">Agende sua consulta</a>
+          </div>
+
+          <!-- Links Legais (Sem animação e posicionados abaixo) -->
+          <div class="legal-row">
+            <a href="/politica-de-privacidade.html">Política de Privacidade</a> •
+            <a href="/termos.html">Termos e Condições</a>
+          </div>
+        </div>
+
+        <div class="contact-card" aria-label="Dados de contato">
+          <div style="font-weight:700;margin-bottom:8px">Contato & Local</div>
+          <div class=\"tiny\"><strong>Telefone:</strong> +55 (85) 98852-8359</div>
+          <div class=\"tiny\"><strong>Email:</strong> oms.otaviio@gmail.com</div>
+          <div class="tiny" style="margin-top:8px;"><strong>Endereço:</strong> Rua Exemplo, 123 — Sala 5, Centro</div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
+  <!-- Botão Voltar ao Topo -->
+  <button id="scroll-top-btn" title="Voltar ao topo" aria-label="Voltar ao topo">
+    ↑
+  </button>
+</body>
+</html>
